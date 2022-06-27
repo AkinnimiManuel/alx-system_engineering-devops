@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f d -not -empty | wc -l
+find ~/lists -empty
