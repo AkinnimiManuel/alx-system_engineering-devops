@@ -1,4 +1,4 @@
-<h1>Loops, conditions and parsing<h1>
+Loops, Conditions and Parsing
 
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -35,6 +35,7 @@ Shellcheck is available on the school’s computers. If you want to use it on yo
 Examples:
 
 Not passing Shellcheck:
-![Alt text](../../../../../../../../C:/Users/user/Desktop/files/programming%20projects/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/not%20passed%20shell%20script.png)
+![Not passing the check](not passed shell script.png)
 
-![Alt text](../../../../../../../../C:/Users/user/Desktop/files/programming%20projects/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/passed%20shell%20script.png)
+passed shellcheck:
+![Not passing the check](passed shell script.png)
