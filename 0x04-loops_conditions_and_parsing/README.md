@@ -35,7 +35,7 @@ Shellcheck is available on the school’s computers. If you want to use it on yo
 Examples:
 
 Not passing Shellcheck:
-![Not passing the check](not passed shell script.png)
+![Not passing the check](notpass.png)
 
 passed shellcheck:
-![Not passing the check](passed shell script.png)
+![Not passing the check](passscript.png)
