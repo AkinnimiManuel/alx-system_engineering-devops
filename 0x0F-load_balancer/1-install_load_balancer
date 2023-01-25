@@ -4,5 +4,5 @@
 apt-get -y update
 apt-get -y install haproxy
 sed -i "s/ENABLED=0/ENABLED=1/g" /etc/default/haproxy
-sed -i "\$ a\listen 900-lb-01\n\tbind *:80\n\tmode http\n\tstats enable\n\tbalance roundrobin\n\tserver 900-web-01 35.229.42.147:80 check\n\tserver 900-web-02 54.90.157.131:80 check" /etc/haproxy/haproxy.cfg
+sed -i "\$ a\listen 900-lb-01\n\tbind *:80\n\tmode http\n\tstats enable\n\tbalance roundrobin\n\tserver 70969-web-01 52.206.215.150:80 check\n\tserver 70969-web-02 18.206.207.144:80 check" /etc/haproxy/haproxy.cfg
 service haproxy restart
