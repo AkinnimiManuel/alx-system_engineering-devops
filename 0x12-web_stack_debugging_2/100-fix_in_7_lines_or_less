@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that conf container, nginx running as nginx user, listening on all active IPs on port 8080
+sudo chmod 700 /etc/nginx/nginx.conf
+sudo chown nginx:nginx /etc/nginx/nginx.conf
+sudo sed -i "s/80 default/8080 default/" /etc/nginx/sites-enabled/default
+pkill -f apache2
+sudo -u nginx service nginx start
